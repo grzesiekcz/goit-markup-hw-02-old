@@ -1,52 +1,22 @@
-font-family: 'Oleo Script', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --main-color: #757575;
+}
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
 }
-.header {
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-}
-.logo {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
-}
-.navigation {
-    font-style: normal;
+
+/* header */
+.navigation__list {
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.142;
 letter-spacing: 0.02em;
+color: #212121;
 }
-.text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.background {
-    position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
 
-background: #2F303A;
-}
+/* end header */
+
+/* main */
+
+/* end main */

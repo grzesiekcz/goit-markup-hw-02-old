@@ -6,32 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
-      <h3 class="logo">
-        <a href="https://grzesiekcz.github.io/goit-markup-hw-01/">WebStudio</a>
+      <nav class="navigation">
+        <h3>
+        <a class="navigation__logo" href="https://grzesiekcz.github.io/goit-markup-hw-01/">WebStudio</a>
       </h3>
-      <nav>
-        <ul class="navigation">
-          <li>Agencja</li>
+        <ul class="navigation__list">
+          <li class="navigation__list-item">Agencja</li>
           <li>
-            <a href="portfolio/portfolio.html" alt="Portfolio">Portfolio </a>
+            <a class="naivgation_link" href="portfolio/portfolio.html" alt="Portfolio">Portfolio </a>
           </li>
-          <li>Kontakt</li>
+          <li class="navigation__list-item">Kontakt</li>
         </ul>
       </nav>
-      <ul class="navigation">
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul>
+        <li><a class="header__mailaddress" href="mailto:info@example.com">info@example.com</a></li>
+        <li><a class="header__phonenumber" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
-      <section class="background">
+      <hr class="line">
+      <section>
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <button type="button" class="button">Zamów usługę</button>
       </section>
     </header>
     <main>
-      <section>
+      <section class="main">
         <ul>
           <li>
             <h4>Lorem Ipsum</h4>
@@ -63,7 +67,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="team">
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
@@ -93,9 +97,9 @@
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li>
+        <h2 class="team-title">Nasz zespół</h2>
+        <ul class="team-element">
+          <li class="subteam-element">
             <figure>
               <img
                 src="images/photo1.jpg"
@@ -159,8 +163,8 @@
       <address>
         <ul>
           <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
