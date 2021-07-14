@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -20,7 +18,7 @@
         <ul class="navigation__list">
           <li class="navigation__list-item">Agencja</li>
           <li>
-            <a class="naivgation_link" href="portfolio/portfolio.html" alt="Portfolio">Portfolio </a>
+            <a class="naivgation__link" href="portfolio/portfolio.html" alt="Portfolio">Portfolio </a>
           </li>
           <li class="navigation__list-item">Kontakt</li>
         </ul>
@@ -34,47 +32,51 @@
       </div>
       <hr class="line">
       <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <div>
+        <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU<br /></h1>
         <button type="button" class="button">Zamów usługę</button>
+        </div>
       </section>
     </header>
     <main>
       <section class="main">
+        <div>
         <ul>
           <li>
-            <h4>Lorem Ipsum</h4>
+            <h4 class="text-title">Lorem Ipsum</h4>
             <p class="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nam vel
+              arcu sem. Sed <br />non sodales dui. Interdum et malesuada<br />
             </p>
           </li>
           <li>
-            <h4>Lorem Ipsum</h4>
+            <h4 class="text-title">Lorem Ipsum</h4>
             <p class="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nam vel
+              arcu sem. Sed <br />non sodales dui. Interdum et malesuada<br />
             </p>
           </li>
           <li>
-            <h4>Lorem Ipsum</h4>
+            <h4 class="text-title">Lorem Ipsum</h4>
             <p class="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nam vel
+              arcu sem. Sed <br />non sodales dui. Interdum et malesuada<br />
             </p>
           </li>
           <li>
-            <h4>Lorem Ipsum</h4>
+            <h4 class="text-title">Lorem Ipsum</h4>
             <p class="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
+              Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nam vel
+              arcu sem. Sed <br />non sodales dui. Interdum et malesuada<br />
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section class="team">
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
+      <section class="main2">
+        <h2 class="section-title">Czym się zajmujemy</h2>
+        <ul class="section__images">
+          <li class="section__images-item">
             <img
               src="images/image1.jpg"
               alt="Osoba pracująca przy biurku na tablecie i komputerze osobistym"
@@ -82,7 +84,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="section__images-item">
             <img
               src="images/image2.jpg"
               alt="Osoba tworząca aplikację na telefon przy użyciu laptopa i telefonu"
@@ -90,7 +92,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="section__images-item">
             <img
               src="images/image3.jpg"
               alt="Osoba ogląda paletę kolorów na tablecie"
@@ -100,66 +102,68 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="team-title">Nasz zespół</h2>
-        <ul class="team-element">
-          <li class="subteam-element">
+      <section class="main3">
+        <div class="team">
+        <h2 class="section-title">Nasz zespół</h2>
+        <ul class="team-list">
+          <li class="team-item">
             <figure>
-              <img
+              <img class="profile__pic"
                 src="images/photo1.jpg"
                 alt="Mężczyzna w okularach w bordowej koszuli"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <h4>John Doe</h4>
+              <figcaption class="figcaption">
+                <h4 class="name">John Doe</h4>
                 Product Designer
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="team-item">
             <figure>
-              <img
+              <img class="profile__pic"
                 src="images/photo2.jpg"
                 alt="Kobieta w okularach i ciemnej marynarce"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <h4>John Doe</h4>
+              <figcaption class="figcaption">
+                <h4 class="name">John Doe</h4>
                 Frontend Developer
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="team-item">
             <figure>
-              <img
+              <img class="profile__pic"
                 src="images/photo3.jpg"
                 alt="Mężczyzna w jasnej koszuli"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <h4>John Doe</h4>
+              <figcaption class="figcaption">
+                <h4 class="name">John Doe</h4>
                 Marketing
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="team-item">
             <figure>
-              <img
+              <img class="profile__pic"
                 src="images/photo4.jpg"
                 alt="Mężczyzna w okularach i ciemnym t-shircie"
                 width="270"
                 height="260"
               />
-              <figcaption>
-                <h4>John Doe</h4>
+              <figcaption class="figcaption">
+                <h4 class="name">John Doe</h4>
                 Marketing
               </figcaption>
             </figure>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer>
