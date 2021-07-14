@@ -5,27 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
-<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h3>
-        <a href="https://grzesiekcz.github.io/goit-markup-hw-01/">WebStudio</a>
-      </h3>
-      <nav>
+    <header class="header">
+      <div class="header__left">
+        <h3>
+          <a
+            class="navigation__logo"
+            href="https://grzesiekcz.github.io/goit-markup-hw-01/"
+            >WebStudio</a
+          >
+        </h3>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__list-item">Agencja</li>
+            <li>
+              <a
+                class="naivgation__link"
+                href="portfolio/portfolio.html"
+                alt="Portfolio"
+                >Portfolio
+              </a>
+            </li>
+            <li class="navigation__list-item">Kontakt</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right">
         <ul>
-          <li>Agencja</li>
-          <li>
-            <a href="portfolio/portfolio.html" alt="Portfolio">Portfolio </a>
-          </li>
-          <li>Kontakt</li>
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <ul>
@@ -151,8 +167,14 @@
       <address>
         <ul>
           <li class="address">m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a class="footer-item" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="footer-item" href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="footer-item" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-item" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>
