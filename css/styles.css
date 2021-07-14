@@ -7,6 +7,7 @@ body {
   font-family: var(--main-font);
   color: var(--main-color);
 }
+
 .header__button {
   background: var(--background-color);
 }
