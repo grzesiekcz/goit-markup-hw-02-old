@@ -1,19 +1,60 @@
 :root {
-    --main-font: 'Roboto', sans-serif;
-    --main-color: #757575;
+  --main-font: "Roboto", sans-serif;
+  --main-color: #757575;
 }
 body {
-    font-family: var(--main-font);
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+.button {
+
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-weight: bold;
+font-size: 16px;
+line-height: 1,875;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
 }
 
 /* header */
 .navigation__list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation__list-item:hover,
+.navigation__list-item:focus,
+.naivgation_link:hover,
+.naivgation_link:focus {
+    color:#2196F3
+}
+.header__mailaddress,
+.header__phonenumber  {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.02em;
-color: #212121;
 }
+.header__mailaddress:hover,
+.header__mailaddress:focus {
+    color: #2196f3
+}
+
 
 /* end header */
 
