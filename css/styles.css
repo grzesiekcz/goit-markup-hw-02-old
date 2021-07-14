@@ -1,12 +1,15 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --main-color: #757575;
+  --background-color: #2f303a;
 }
 body {
   font-family: var(--main-font);
   color: var(--main-color);
 }
-
+.header__button {
+  background: var(--background-color);
+}
 .button {
   width: 200px;
   height: 50px;
@@ -25,11 +28,23 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
+  cursor: pointer;
+
   color: #ffffff;
 }
 
 /* header */
 .navigation__logo {
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.192;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
   text-decoration: none;
 }
 .navigation__list {
@@ -44,7 +59,10 @@ body {
 .naivgation__link:hover,
 .naivgation__link:focus,
 .header__mailaddress:hover,
-.header__mailaddress:focus {
+.header__mailaddress:focus,
+.header__phonenumber:hover,
+.header__phonenumber:focus,
+.footer-item:hover {
   color: #2196f3;
   text-decoration: none;
 }
@@ -66,7 +84,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /* color: #FFFFFF;*/
+  color: #ffffff;
 }
 
 /* end header */
@@ -88,6 +106,7 @@ body {
 
   letter-spacing: 0.03em;
 }
+
 /* what we do */
 .section-title {
   font-weight: bold;
@@ -128,12 +147,29 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.profile__pic {
-}
+
 /* end team */
 
 /* end main */
 
 /* footer */
+.footer {
+  background-color: var(--background-color);
+}
+.address {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.714x;
+  letter-spacing: 0.03em;
 
+  color: #FFFFFF
+}
+.footer-item {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.741;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: /rgba(255, 255, 255, 0.6);
+}
 /* end footer */
