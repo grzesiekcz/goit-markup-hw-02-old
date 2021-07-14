@@ -11,11 +11,6 @@ body {
   background: var(--background-color);
 }
 .button {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -30,7 +25,7 @@ body {
 
   cursor: pointer;
 
-  color: #ffffff;
+  color: #fff;
 }
 
 /* header */
@@ -84,7 +79,7 @@ color: #2196F3;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: #fff;
 }
 
 /* end header */
@@ -125,7 +120,7 @@ color: #2196F3;
   background: #f5f4fa;
 }
 .team-item {
-  background: #ffffff;
+  background: #fff;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -162,7 +157,7 @@ color: #2196F3;
   line-height: 1.714x;
   letter-spacing: 0.03em;
 
-  color: #FFFFFF
+  color: #FFF
 }
 .footer-item {
   font-family: var(--main-font);
@@ -173,3 +168,50 @@ color: #2196F3;
   color: /rgba(255, 255, 255, 0.6);
 }
 /* end footer */
+
+/* portfolio */
+.modal-btn {
+background: #F5F4FA;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #FFF;
+  background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+.portfolio {
+  background: #E5E5E5;
+}
+.portfolio-item {
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+.portfolio-name {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+.portfolio-fig {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.667;
+
+letter-spacing: 0.03em;
+
+color: var(--main-color)
+}
